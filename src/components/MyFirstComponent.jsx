@@ -2,6 +2,7 @@ export const MyFirstComponent = () => {
   
   const name = 'David Romero';
   const github_profile = "https://github.com/DRomeroLucas";
+  
   const student = {
     first_name : 'Carlos',
     last_name : 'Alvarado',
@@ -12,7 +13,7 @@ export const MyFirstComponent = () => {
   return (
     <>
         <div>MyFirstComponent</div>
-        <div className="container bg-info">
+        <div className="container mt-4">
           <h1>Temas de React</h1>
           <ul>
               <li>Componentes</li>
